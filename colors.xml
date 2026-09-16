@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
 
-    <color name="black">#000000</color>
+    <color name="black">#05070D</color>
+    <color name="amoled">#020307</color>
 
-    <color name="bg">#02050D</color>
-    <color name="surface">#071426</color>
-    <color name="surface2">#0A1D34</color>
+    <color name="panel">#0A1220</color>
+    <color name="panel2">#0D192B</color>
+    <color name="panel3">#101F35</color>
 
     <color name="cyan">#00D9FF</color>
-    <color name="blue">#1677FF</color>
-    <color name="purple">#7C2CFF</color>
-    <color name="pink">#FF27D9</color>
+    <color name="blue">#2677FF</color>
+    <color name="purple">#8B36FF</color>
+    <color name="pink">#FF29D9</color>
 
-    <color name="green">#00F59B</color>
-    <color name="yellow">#FFD43B</color>
-    <color name="red">#FF4267</color>
+    <color name="green">#00E891</color>
+    <color name="yellow">#FFD52E</color>
+    <color name="red">#FF426D</color>
 
-    <color name="white">#FFFFFF</color>
-    <color name="text_primary">#F5F8FF</color>
-    <color name="text_secondary">#8FA4C2</color>
-
-    <color name="border">#163A60</color>
+    <color name="white">#F5F8FF</color>
+    <color name="text_secondary">#8291A8</color>
+    <color name="divider">#20334D</color>
 
 </resources>
