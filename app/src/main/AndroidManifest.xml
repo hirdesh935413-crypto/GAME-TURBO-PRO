@@ -2,34 +2,21 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Network latency test -->
+    <!-- Required only for network/ping information -->
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- Read network state -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <!-- Allows brightness/screen-timeout changes after the user grants
-         special Android Settings access. -->
-    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-
-    <!--
-        Android 11+ package visibility.
-        We only query applications having a launcher activity.
-    -->
     <queries>
-
         <intent>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent>
-
     </queries>
 
     <application
-        android:allowBackup="false"
-        android:icon="@drawable/ic_games"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_gamepad"
         android:label="@string/app_name"
-        android:resizeableActivity="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.GameTurboPro">
 
@@ -38,12 +25,8 @@
             android:exported="true">
 
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
-
-                <category
-                    android:name="android.intent.category.LAUNCHER" />
-
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
