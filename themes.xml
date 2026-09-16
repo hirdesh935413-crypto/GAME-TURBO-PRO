@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
 
-    <style
-        name="Theme.GameTurboPro"
+    <style name="Theme.GameTurboPro"
         parent="Theme.Material3.Dark.NoActionBar">
 
         <item name="android:fontFamily">sans</item>
-
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:statusBarColor">@color/bg</item>
-        <item name="android:navigationBarColor">@color/bg</item>
-
-        <item name="android:colorAccent">@color/cyan</item>
+        <item name="android:statusBarColor">@color/amoled</item>
+        <item name="android:navigationBarColor">@color/amoled</item>
 
         <item name="colorPrimary">@color/cyan</item>
-        <item name="colorSecondary">@color:purple</item>
+        <item name="colorSecondary">@color/purple</item>
 
-        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/amoled</item>
 
     </style>
 
